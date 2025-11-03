@@ -1,0 +1,2 @@
+# hyprcfg
+I miss gnome
