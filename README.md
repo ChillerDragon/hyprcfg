@@ -10,6 +10,5 @@ I miss gnome
 
 Lock screen images
 
-    git clone git@github.com:ChillerData/Pictures.git /tmp/pics
-    cp /tmp/pics/Wallpapers/CellegenBG.png ~/.config/hypr/hyprlock/background.png
-    cp /tmp/pics/teeworlds/chiller/chiller.png ~/.config/hypr/hyprlock/profile.png
+    wget https://raw.githubusercontent.com/ChillerData/Pictures/refs/heads/master/teeworlds/chiller/chiller.png -O ~/.config/hypr/hyprlock/profile.png
+    wget https://raw.githubusercontent.com/ChillerData/Pictures/refs/heads/master/Wallpapers/CellegenBG.png -O ~/.config/hypr/hyprlock/background.png
