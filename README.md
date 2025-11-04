@@ -3,8 +3,9 @@
 I miss gnome
 
     mkdir -p ~/.config/hypr/hyprlock
-    ln $PWD/hyprland.conf ~/.config/hypr/hyprland.conf
-    ln $PWD/hyprlock.conf ~/.config/hypr/hyprlock.conf
+    ln -s $PWD/hyprland.conf ~/.config/hypr/hyprland.conf
+    ln -s $PWD/hyprlock.conf ~/.config/hypr/hyprlock.conf
+    ln -s $PWD/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
 
     yay -S hyprland kitty rofi waypaper hyprpaper hyprshot hyprlock
 
